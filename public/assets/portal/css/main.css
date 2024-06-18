@@ -1,0 +1,61 @@
+.clear{
+    clear: both!important;
+}
+
+#produtos_servicos{
+    padding: 30px 0;
+}
+
+.box-produto{
+    width: 33.333%;
+    margin: 0 0 10px 0;
+    padding: 0 10px;
+    float: left;
+}
+
+.box-produto-image{
+    width: auto ;
+    height: 200px;
+    overflow: hidden;
+}
+
+.box-produto-titulo{
+    z-index: 3;
+    text-align: center;
+    background: green;
+    padding: 20px 0 10px 0;
+}
+
+a.link-01{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.cont-parceiros{
+    padding: 0 0 20px 0;
+}
+
+.parceiros{
+    height: 126px;
+    overflow: hidden;
+    float: left;
+    margin: 10px 10px;
+}
+
+
+@media (max-width: 767px) {
+
+    .entrar{
+        padding: 25px 0;
+    }
+
+    .box-produto{
+        width: 100%;
+    }
+
+    .parceiros{
+        margin: 10px 60px;
+    }
+
+}
